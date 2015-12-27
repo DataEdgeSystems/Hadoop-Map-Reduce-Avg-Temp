@@ -1,4 +1,4 @@
-# AvgTemp
+# Hadoop Map Reduce Implementation : AvgTemp
 Project To calculate the average of Temperatures from a dataset using MapReduce in Hadoop
 
 ## Steps to Run :
