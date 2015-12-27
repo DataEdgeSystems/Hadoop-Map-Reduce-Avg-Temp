@@ -39,12 +39,12 @@ Project To calculate the average of Temperatures from a dataset using MapReduce 
      I have used here my local machine installed with Ubuntu 14.04LTE
      Go to terminal :
      type in : 
-         ##hadoop fs -mkdir -p hdfs://localhost:9000/data/small (To create a directory in your HDFS)
+         ##hadoop fs -mkdir -p hdfs://localhost:9000//data/big/weather (To create a directory in your HDFS)
  
 4.	Now copy data to your cluser:
      For example you have a dataset residing in ##/home/anurag/data/small/
      type in : 
-         ##hadoop fs -put /home/anurag/data/small/ hdfs://localhost:9000/data/small
+         ##hadoop fs -put /home/anurag//data/big/weather hdfs://localhost:9000//data/big/weather
  
 5.	Go to : http://localhost:50070/explorer.html to see whether files were copied or not
       Now I have already exported the jar for using with our dataset, you can export your own from IDE
