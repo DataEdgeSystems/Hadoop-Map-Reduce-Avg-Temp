@@ -14,7 +14,7 @@ Project To calculate the average of Temperatures from a dataset using MapReduce 
    1.4. Get the dataset from http://www.ncdc.noaa.gov/orders/qclcd/ : For any specific year or whole.
 
 
-Once you have everything in place:
+     Once you have everything in place:
 
 2.	use ##start-all.sh (Deprecated : use start-dfs.sh and start-yarn.sh for starting namenodes, datanodes, resource managers)
   
