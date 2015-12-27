@@ -44,9 +44,9 @@ Project To calculate the average of Temperatures from a dataset using MapReduce 
          ##hadoop fs -mkdir -p hdfs://localhost:9000//data/big/weather (To create a directory in your HDFS)
  
 4.	Now copy data to your cluser:
-     For example you have a dataset residing in ##/home/anurag/data/small/
+     For example you have a dataset residing in /home/anurag/data/small/
      type in : 
-         ##hadoop fs -put /home/anurag//data/big/weather hdfs://localhost:9000//data/big/weather
+        hadoop fs -put /home/anurag//data/big/weather hdfs://localhost:9000//data/big/weather
  
 5.	Go to : http://localhost:50070/explorer.html to see whether files were copied or not.	![HDFS Explorer](https://github.com/t2013anurag/AvgTemp/blob/master/images/2.png)
       Now I have already exported the jar for using with our dataset, you can export your own from IDE
@@ -55,7 +55,7 @@ Project To calculate the average of Temperatures from a dataset using MapReduce 
 
 6.	So to run the Job on your cluster :
       type in :
-       ##hadoop jar /home/anurag/workspace2/AvgTemp/bin/AvgTemp.jar AvgTemp hdfs://localhost:9000/data/big/weather                hdfs://localhost:9000/data/big/weather/output.
+       hadoop jar /home/anurag/workspace2/AvgTemp/bin/AvgTemp.jar AvgTemp hdfs://localhost:9000/data/big/weather                hdfs://localhost:9000/data/big/weather/output.
       	![Output Success](https://github.com/t2013anurag/AvgTemp/blob/master/images/3.png)
 
 And voila!!
