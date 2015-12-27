@@ -16,7 +16,7 @@ Project To calculate the average of Temperatures from a dataset using MapReduce 
 
      Once you have everything in place:
 
-2.	use ##start-all.sh (Deprecated : use start-dfs.sh and start-yarn.sh for starting namenodes, datanodes, resource managers)
+2.	use start-all.sh (Deprecated : use start-dfs.sh and start-yarn.sh for starting namenodes, datanodes, resource managers)
   
      Type in ##jps in terminal : (You get something like this)
     ![JPS Image](https://github.com/t2013anurag/AvgTemp/blob/master/images/1.png)
