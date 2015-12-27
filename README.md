@@ -19,7 +19,7 @@ Project To calculate the average of Temperatures from a dataset using MapReduce 
 2.	use ##start-all.sh (Deprecated : use start-dfs.sh and start-yarn.sh for starting namenodes, datanodes, resource managers)
   
      Type in ##jps in terminal : (You get something like this)
-
+    ![JPS Image](https://github.com/t2013anurag/AvgTemp/blob/master/images/1.png)
       4181 DataNode
 
       5214 NameNode
@@ -46,16 +46,18 @@ Project To calculate the average of Temperatures from a dataset using MapReduce 
      type in : 
          ##hadoop fs -put /home/anurag//data/big/weather hdfs://localhost:9000//data/big/weather
  
-5.	Go to : http://localhost:50070/explorer.html to see whether files were copied or not
+5.	Go to : http://localhost:50070/explorer.html to see whether files were copied or not.	![HDFS Explorer](https://github.com/t2013anurag/AvgTemp/blob/master/images/2.png)
       Now I have already exported the jar for using with our dataset, you can export your own from IDE
       Copy the jar to your filesystem. Mine resides in /home/anurag/workspace2/AvgTemp/bin/AvgTemp.jar
- 
+       
+
 6.	So to run the Job on your cluster :
       type in :
-       ##hadoop jar /home/anurag/workspace2/AvgTemp/bin/AvgTemp.jar AvgTemp hdfs://localhost:9000/data/big/weather                hdfs://localhost:9000/data/big/weather/output
+       ##hadoop jar /home/anurag/workspace2/AvgTemp/bin/AvgTemp.jar AvgTemp hdfs://localhost:9000/data/big/weather                hdfs://localhost:9000/data/big/weather/output.
+      	![Output Success](https://github.com/t2013anurag/AvgTemp/blob/master/images/3.png)
 
 And voila!!
-You just ran your Map Reduce Job.
+You just ran your Map Reduce Job successfully.
 
 #For any queries :
 #tiwari.anurag126@gmail.com
