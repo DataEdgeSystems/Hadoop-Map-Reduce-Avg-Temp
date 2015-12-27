@@ -20,6 +20,8 @@ Project To calculate the average of Temperatures from a dataset using MapReduce 
   
      Type in ##jps in terminal : (You get something like this)
     ![JPS Image](https://github.com/t2013anurag/AvgTemp/blob/master/images/1.png)
+
+
       4181 DataNode
 
       5214 NameNode
